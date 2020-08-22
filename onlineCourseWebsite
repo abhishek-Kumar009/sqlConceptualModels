@@ -1,31 +1,38 @@
-<mxfile host="app.diagrams.net" modified="2020-08-21T17:05:46.401Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36" etag="EVuYYg0X-x56wbG5hP63" version="13.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-22T04:55:39.835Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36" etag="sRRcHJAkVmDTGF5zUQf2" version="13.6.4" type="github">
   <diagram id="76iyoqwpOe93d2PfeI7s" name="Page-1">
     <mxGraphModel dx="1355" dy="806" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="SFyLMT9xitPjF_isfeRL-1" value="Student" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+        <mxCell id="esTfEvGotpUs2JvocFUO-7" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;exitX=0.989;exitY=0.422;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="SFyLMT9xitPjF_isfeRL-7" target="esTfEvGotpUs2JvocFUO-2">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="540" y="470" as="sourcePoint" />
+            <mxPoint x="660" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SFyLMT9xitPjF_isfeRL-1" value="Student" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
           <mxGeometry x="60" y="110" width="160" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="SFyLMT9xitPjF_isfeRL-2" value="name&#xa;email&#xa;dateRegistered" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="SFyLMT9xitPjF_isfeRL-1">
+        <mxCell id="SFyLMT9xitPjF_isfeRL-2" value="name(string)&#xa;email(string)&#xa;dateRegistered(dateTime)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="SFyLMT9xitPjF_isfeRL-1" vertex="1">
           <mxGeometry y="30" width="160" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="SFyLMT9xitPjF_isfeRL-8" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmany;startArrow=ERmany;entryX=-0.012;entryY=0.389;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="SFyLMT9xitPjF_isfeRL-7">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="220" y="160" as="sourcePoint" />
-            <mxPoint x="460" y="360" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="SFyLMT9xitPjF_isfeRL-12" value="&lt;font style=&quot;font-size: 18px&quot;&gt;Enrolls&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SFyLMT9xitPjF_isfeRL-8">
-          <mxGeometry x="0.0799" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="SFyLMT9xitPjF_isfeRL-6" value="Course" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+        <mxCell id="SFyLMT9xitPjF_isfeRL-6" value="Course" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
           <mxGeometry x="550" y="110" width="175" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="SFyLMT9xitPjF_isfeRL-7" value="Title&#xa;Price&#xa;Instructor&#xa;Tags" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="SFyLMT9xitPjF_isfeRL-6">
+        <mxCell id="SFyLMT9xitPjF_isfeRL-7" value="Title(string)&#xa;Price(float)&#xa;Instructor(string)&#xa;Tags(string)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="SFyLMT9xitPjF_isfeRL-6" vertex="1">
           <mxGeometry y="30" width="175" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="esTfEvGotpUs2JvocFUO-1" value="Enrollment" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="340" y="350" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="esTfEvGotpUs2JvocFUO-2" value="date(dateType)&#xa;Price(float)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="esTfEvGotpUs2JvocFUO-1">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="esTfEvGotpUs2JvocFUO-3" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;entryX=-0.019;entryY=0.622;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="SFyLMT9xitPjF_isfeRL-2" target="esTfEvGotpUs2JvocFUO-2">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="210" y="390" as="sourcePoint" />
+            <mxPoint x="310" y="290" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
